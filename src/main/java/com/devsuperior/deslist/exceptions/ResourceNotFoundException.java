@@ -1,0 +1,7 @@
+package com.devsuperior.deslist.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
