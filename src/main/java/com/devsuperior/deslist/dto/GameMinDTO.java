@@ -1,6 +1,7 @@
 package com.devsuperior.deslist.dto;
 
 import com.devsuperior.deslist.entities.Game;
+import com.devsuperior.deslist.projections.GameMinProjection;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -24,7 +25,15 @@ public class GameMinDTO {
                 entity.getImgUrl(),
                 entity.getShortDescription()
         );
-
     }
 
+    public static GameMinDTO formEntity(GameMinProjection projection) {
+        return new GameMinDTO(
+                projection.getId(),
+                projection.getTitle(),
+                projection.getYear(),
+                projection.getImgUrl(),
+                projection.getShortDescription()
+        );
+    }
 }
