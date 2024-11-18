@@ -1,7 +1,7 @@
 # DSList
 
 ## Descrição
-DSList é um sistema web para gerenciamento de listas de jogos. Este projeto foi desenvolvido utilizando Spring Boot e segue o padrão de camadas.
+DSList é um sistema back-end para gerenciamento de listas de jogos. Este projeto foi desenvolvido utilizando Spring Boot e segue o padrão de camadas, podendo ser integrado com um front-end web.
 
 ## Tecnologias Utilizadas
 - Java 21
@@ -16,7 +16,7 @@ DSList é um sistema web para gerenciamento de listas de jogos. Este projeto foi
 ### Sistemas Web e Recursos
 - **Cliente/Servidor**: Arquitetura onde o cliente faz requisições HTTP e o servidor responde com dados em JSON.
 - **Padrão REST**: Implementação de APIs seguindo os princípios RESTful.
-![image](https://github.com/user-attachments/assets/79e0c2fe-8af7-4731-abd9-8d94fec19e40)
+  ![image](https://github.com/user-attachments/assets/79e0c2fe-8af7-4731-abd9-8d94fec19e40)
 
 ### Estruturação de Projeto Spring REST
 - **Entidades e ORM**: Mapeamento objeto-relacional utilizando JPA e Hibernate.
@@ -32,7 +32,7 @@ DSList é um sistema web para gerenciamento de listas de jogos. Este projeto foi
 - Modelos de objetos
   ![image](https://github.com/user-attachments/assets/3713c092-4eee-4569-aa85-ae20a1761820)
 - Modelo relacional
-- 
+
   ![image](https://github.com/user-attachments/assets/1f116010-e465-4a1c-a2d1-ec4b7d20f700) ![image](https://github.com/user-attachments/assets/c16bf528-ccb3-4876-9418-8c98623149d0)
   ![image](https://github.com/user-attachments/assets/cf0baca6-f04f-4944-afdb-67e349e5d8b8)
 
@@ -58,6 +58,7 @@ Para facilitar o teste dos endpoints, você pode importar a coleção do Postman
 5. Clique em `Import`.
 
 Agora você terá todos os endpoints configurados no Postman para facilitar o teste da API.
+
 ## Como Executar o Projeto
 
 ### Pré-requisitos
@@ -67,7 +68,6 @@ Agora você terá todos os endpoints configurados no Postman para facilitar o te
 1. Clone o repositório:
    ```bash
    git clone https://github.com/MarceloSilvaRosa/dslist.git
-
 ## Licença
 Este projeto está licenciado sob a licença MIT.
 
